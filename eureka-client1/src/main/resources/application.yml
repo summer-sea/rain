@@ -1,0 +1,10 @@
+
+#instance:
+# prfer-ip-address: true
+#instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+server:
+  port: 8081
+spring:
+  application:
+    name: service-hi
+
